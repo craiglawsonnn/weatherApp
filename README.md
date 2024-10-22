@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Weather Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Weather Dashboard is a React-based web application that allows users to search for weather information of cities around the world. It provides current weather data and a 5-day forecast, with the ability to save favorite cities for quick access.
 
-## Available Scripts
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [API Reference](#api-reference)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-In the project directory, you can run:
+## Installation
+To run this project locally, follow these steps:
 
-### `npm start`
+1. Clone the repository:
+   ```
+   git clone https://github.com/craiglawsonnn/weatherApp.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd weatherApp
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+4. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
+   ```
+   REACT_APP_WEATHER_API_KEY=your_api_key_here
+   ```
+5. Start the development server:
+   ```
+   npm start
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+After starting the development server, open your browser and go to `http://localhost:3000`. You can search for a city by entering its name in the search bar and clicking the search button. The current weather and 5-day forecast will be displayed.
 
-### `npm test`
+To save a city as a favorite, click the "Add to Favorites" button. Favorite cities will appear in a list for quick access.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can toggle between Celsius and Fahrenheit using the toggle button.
 
-### `npm run build`
+## Features
+- Search for weather information by city name
+- Display current weather conditions including temperature, humidity, and wind speed
+- Show a 5-day weather forecast
+- Toggle between Celsius and Fahrenheit
+- Save and display favorite cities
+- Responsive design with a glass-like UI effect
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js
+- Bootstrap for styling
+- Axios for API requests
+- OpenWeatherMap API for weather data
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## API Reference
+This project uses the OpenWeatherMap API. You can find more information about the API and sign up for a key at [OpenWeatherMap](https://openweathermap.org/api).
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/craiglawsonnn/weatherApp](https://github.com/craiglawsonnn/weatherApp)
