@@ -3,6 +3,8 @@
 ## Description
 Weather Dashboard is a React-based web application that allows users to search for weather information of cities around the world. It provides current weather data and a 5-day forecast, with the ability to save favorite cities for quick access.
 
+![PreviewImage](https://github.com/craiglawsonnn/weatherApp/blob/main/Screenshot%202024-10-22%20174922.png)
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -53,6 +55,7 @@ You can toggle between Celsius and Fahrenheit using the toggle button.
 - Save and display favorite cities
 - Responsive design with a glass-like UI effect
 
+![FeatureImage](https://github.com/craiglawsonnn/weatherApp/blob/main/Screenshot%202024-10-22%20174930.png)
 ## Technologies Used
 
 - React.js
